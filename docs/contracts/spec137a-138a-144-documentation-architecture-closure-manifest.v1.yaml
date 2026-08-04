@@ -1,6 +1,6 @@
 {
   "serialization": "JSON-compatible YAML 1.2",
-  "generated_at": "2026-07-31T17:03:56+00:00",
+  "generated_at": "2026-08-04T03:47:01+00:00",
   "runtime_claim": "none",
   "runtime_status": "implementation_open",
   "schema": "focusa.spec137a_138a_144_documentation_architecture_closure_manifest.v1",
@@ -152,7 +152,7 @@
     },
     {
       "path": "docs/104-typed-scoped-runtime-and-singleton-elimination-spec.md",
-      "sha256": "4e6c2cb841edd60969710777c02ba88203d36599d0cda21c55ea31a1c9ff35e9"
+      "sha256": "18f6e0676995a49411f0a23698130db5b3fbda96e0e6bc0fefd3a99e9f6cff3e"
     },
     {
       "path": "docs/111-agent-context-bootstrap-and-delivery-spec.md",

@@ -1,6 +1,6 @@
 # Spec 137A/138A/144 maintained closure workflow
 
-Source commit: 4c195fd26fc7a4669e36879eb5ee0b9d0a413ef4
+Source commit: eb0fcccaca9eca2c730b881ff45c9f8b0e87509b
 Hardening exit status: 0
 Validation exit status: 1
 

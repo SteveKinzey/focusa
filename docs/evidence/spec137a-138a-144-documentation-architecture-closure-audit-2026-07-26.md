@@ -1,6 +1,6 @@
 # Specs 137A, 138A, and 144 Documentation Architecture Closure Audit
 
-Generated: `2026-07-31T17:03:56+00:00`
+Generated: `2026-08-04T03:47:01+00:00`
 
 ## Verdict
 

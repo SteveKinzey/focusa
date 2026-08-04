@@ -1,8 +1,8 @@
 {
   "serialization": "JSON-compatible YAML 1.2",
-  "generated_at": "2026-07-31T17:03:56+00:00",
-  "runtime_claim": "activated",
-  "runtime_status": "verified_complete",
+  "generated_at": "2026-08-04T03:47:01+00:00",
+  "runtime_claim": "none",
+  "runtime_status": "implementation_open",
   "schema": "focusa.spec138_scorer_and_calibration_matrix.v1",
   "scorers": [
     {
@@ -11,12 +11,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec144-spec150-double-e2e-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#binary_accuracy"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "multiclass_accuracy",
@@ -24,12 +19,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#multiclass_accuracy"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "brier_score",
@@ -37,12 +27,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#brier_score"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "multiclass_brier_score",
@@ -50,12 +35,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#multiclass_brier_score"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "log_loss",
@@ -63,12 +43,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#log_loss"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "multiclass_log_loss",
@@ -76,12 +51,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#multiclass_log_loss"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "spherical_score",
@@ -89,12 +59,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#spherical_score"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "continuous_ranked_probability_score",
@@ -102,12 +67,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#continuous_ranked_probability_score"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "mean_absolute_error",
@@ -115,12 +75,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#mean_absolute_error"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "mean_squared_error",
@@ -128,12 +83,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#mean_squared_error"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "root_mean_squared_error",
@@ -141,12 +91,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#root_mean_squared_error"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "mean_absolute_percentage_error",
@@ -154,12 +99,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#mean_absolute_percentage_error"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "symmetric_mape",
@@ -167,12 +107,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#symmetric_mape"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "quantile_pinball_loss",
@@ -180,12 +115,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#quantile_pinball_loss"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "interval_coverage",
@@ -193,12 +123,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#interval_coverage"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "interval_width",
@@ -206,12 +131,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#interval_width"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "winkler_interval_score",
@@ -219,12 +139,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#winkler_interval_score"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "rank_correlation",
@@ -232,12 +147,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#rank_correlation"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "information_coefficient",
@@ -245,12 +155,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#information_coefficient"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "top_k_precision",
@@ -258,12 +163,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#top_k_precision"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "top_k_recall",
@@ -271,12 +171,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#top_k_recall"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "ndcg",
@@ -284,12 +179,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#ndcg"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "concordance_index",
@@ -297,12 +187,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#concordance_index"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "survival_brier_score",
@@ -310,12 +195,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#survival_brier_score"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "expected_calibration_error",
@@ -323,12 +203,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#expected_calibration_error"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "maximum_calibration_error",
@@ -336,12 +211,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#maximum_calibration_error"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "adaptive_calibration_error",
@@ -349,12 +219,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#adaptive_calibration_error"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "skill_score",
@@ -362,12 +227,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#skill_score"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "expected_utility",
@@ -375,12 +235,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#expected_utility"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "realized_regret",
@@ -388,12 +243,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#realized_regret"
+      "status": "runtime_implementation_open"
     },
     {
       "id": "custom_registered",
@@ -401,12 +251,7 @@
       "shape_applicability": "explicit",
       "versioned": true,
       "fixtures_required": true,
-      "status": "verified_complete",
-      "evidence_refs": [
-        "docs/evidence/release/S138-E2E-01-runtime.txt"
-      ],
-      "receipt_ref": "release-proof/audit/spec138-runtime-receipt.json",
-      "fixture_ref": "tests/fixtures/spec138/scorer-registry-v1.json#custom_registered"
+      "status": "runtime_implementation_open"
     }
   ],
   "calibration_dimensions": [
@@ -429,7 +274,5 @@
     "time_period",
     "transfer_context",
     "verifier_capability"
-  ],
-  "activation_receipt_ref": "release-proof/audit/spec144-spec150-double-e2e-receipt.json",
-  "calibration_status": "verified_complete"
+  ]
 }
