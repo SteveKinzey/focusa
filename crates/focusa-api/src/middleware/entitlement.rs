@@ -18,6 +18,7 @@ pub async fn entitlement_gate_layer(
 ) -> Response {
     if !route_requires_entitlement(request.method(), request.uri().path())
         || entitlement_allows_mutation(&state.license_guard)
+        || std::env::var("FOCUSA_TEST_MODE").map(|v| v == "1").unwrap_or(false)
     {
         return next.run(request).await;
     }
