@@ -65,15 +65,15 @@ jobs:
 
             gh run view "$id" --repo "$REPO" --log-failed > failed.log 2>/dev/null || true
             classification="$(python3 scripts/classify-ci-failure.py failed.log --format json 2>/dev/null || true)"
-            cls="$(jq -r '.failure_class // "unclassified"' <<<"${classification:-{}}")"
-            retry_policy="$(jq -r '.retry_policy // "operator_review"' <<<"${classification:-{}}")"
-            deterministic="$(jq -r '.deterministic // false' <<<"${classification:-{}}")"
-            safe_to_rerun_unchanged="$(jq -r '.safe_to_rerun_unchanged // false' <<<"${classification:-{}}")"
-            plain_language_error="$(jq -r '.plain_language_error // "classified workflow failure"' <<<"${classification:-{}}")"
-            likely_root_cause="$(jq -r '.likely_root_cause // "see failed workflow evidence"' <<<"${classification:-{}}")"
-            remediation_template="$(jq -r '.remediation_template // "governed recovery or operator patch"' <<<"${classification:-{}}")"
-            source_refs="$(jq -r '(.source_refs // []) | join(",")' <<<"${classification:-{}}")"
-            signals="$(jq -r '(.signals // []) | join(",")' <<<"${classification:-{}}")"
+            cls="$(jq -r '.failure_class // "unclassified"' <<<"${classification:-null}")"
+            retry_policy="$(jq -r '.retry_policy // "operator_review"' <<<"${classification:-null}")"
+            deterministic="$(jq -r '.deterministic // false' <<<"${classification:-null}")"
+            safe_to_rerun_unchanged="$(jq -r '.safe_to_rerun_unchanged // false' <<<"${classification:-null}")"
+            plain_language_error="$(jq -r '.plain_language_error // "classified workflow failure"' <<<"${classification:-null}")"
+            likely_root_cause="$(jq -r '.likely_root_cause // "see failed workflow evidence"' <<<"${classification:-null}")"
+            remediation_template="$(jq -r '.remediation_template // "governed recovery or operator patch"' <<<"${classification:-null}")"
+            source_refs="$(jq -r '(.source_refs // []) | join(",")' <<<"${classification:-null}")"
+            signals="$(jq -r '(.signals // []) | join(",")' <<<"${classification:-null}")"
             SELF_HEAL_SURFACE="release-pipeline-watchdog" \
               SELF_HEAL_WORKFLOW="$wf" SELF_HEAL_RUN_ID="$id" SELF_HEAL_HEAD_SHA="$sha" \
               failure_class="$cls" retry_policy="$retry_policy" deterministic="$deterministic" \
