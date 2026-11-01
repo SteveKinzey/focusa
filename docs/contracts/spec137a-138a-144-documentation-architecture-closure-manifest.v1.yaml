@@ -1,6 +1,6 @@
 {
   "serialization": "JSON-compatible YAML 1.2",
-  "generated_at": "2026-09-04T10:19:11+00:00",
+  "generated_at": "2026-11-01T11:01:47+00:00",
   "runtime_claim": "none",
   "runtime_status": "implementation_open",
   "schema": "focusa.spec137a_138a_144_documentation_architecture_closure_manifest.v1",
@@ -44,7 +44,7 @@
     },
     {
       "path": "docs/79-focusa-governed-continuous-work-loop.md",
-      "sha256": "369fd9ab854c83ea78a121f464fd2148b8bccc1f043777de1e391c99937b2bcf"
+      "sha256": "5c8d6241a786a46863e5f63b6b6a73003a152856c381e89e2164f97d8db56c58"
     },
     {
       "path": "docs/88-ontology-backed-workpoint-continuity.md",
@@ -72,7 +72,7 @@
     },
     {
       "path": "docs/116-provider-neutral-work-item-closure-authority-spec.md",
-      "sha256": "60c4349fb264208d465a1ff155e5007df071713725c29b796b629bf2892fa287"
+      "sha256": "f49800d0048c327ce2d007a70d4ad17c90d1448e81218b445e8b4307b32ad771"
     },
     {
       "path": "docs/119-verifiable-agent-work-receipts-and-governed-execution-ledger-spec.md",
@@ -92,7 +92,7 @@
     },
     {
       "path": "docs/131-focusa-workpoint-item-timing-velocity-and-closure-authority-spec.md",
-      "sha256": "ee0e72ef66468109733ad98c76c068d2d089d7af84d90ff367cc9cd393d2dd00"
+      "sha256": "f6e672f746a24ee75c030c9f6498a53c702365c1e986a73dcc1ef9a3ae56e65a"
     },
     {
       "path": "docs/133-daemon-native-durable-silent-sessions-and-governed-autonomous-execution-spec.md",
@@ -124,7 +124,7 @@
     },
     {
       "path": "docs/141-focusa-agent-first-tool-skill-runbook-and-documentation-release-gate-spec.md",
-      "sha256": "52d52368a07b3abdb74a37add0b94259c9ffbf3f299c6bfdab07faac8afd9d0a"
+      "sha256": "808a6160fd8e12c96a4562d795548708e6e507dc61910c35478d97f5b66ebbc4"
     },
     {
       "path": "docs/142-focusa-release-requirement-trace-matrix.md",
@@ -132,7 +132,7 @@
     },
     {
       "path": "docs/143-focusa-master-release-cycle-trajectory-genesis-flow-implementation-spec.md",
-      "sha256": "10586876cb24ebc1ed8f52fe86ce160bda1779e15391d5f4b440d5aa11b15598"
+      "sha256": "c6cedd10e7eff70bcabe857970dfbfea270fefec8a494838409faa593752c77e"
     },
     {
       "path": "docs/00-glossary.md",
@@ -140,11 +140,11 @@
     },
     {
       "path": "docs/current/AUTHORITY_MODEL.md",
-      "sha256": "082f7bdc49b4be1d87f629c76c6040d26266c73841fb3bc30275171c7b696204"
+      "sha256": "358c8e83d2474c6f0ec1c3a36793aec7248cd86e0a856845326f2114ee9ebc1a"
     },
     {
       "path": "docs/90-ontology-backed-tool-contracts-parity-spec.md",
-      "sha256": "c1b4694a4c38b75f6cf8668d327fc2f3f6f78471c23eda427985c5e3691d1e79"
+      "sha256": "3c24043b3e888fa1be1a11ba1630f5fb4a6a4fce34e99c230a9510fc705f0922"
     },
     {
       "path": "docs/95-focusa-ontology-low-latency-intelligence-enhancer-sow.md",
@@ -152,11 +152,11 @@
     },
     {
       "path": "docs/104-typed-scoped-runtime-and-singleton-elimination-spec.md",
-      "sha256": "bac74e7f4468d42398ecea01f2422c511e8173f850fd715bb8f9273daf9900c8"
+      "sha256": "5bb0946a0475f060a9ef05e0b8f483231b0239f9f9267a2dbfa57e151003a3ef"
     },
     {
       "path": "docs/111-agent-context-bootstrap-and-delivery-spec.md",
-      "sha256": "f0c3317cdcd7ee5df06f7509dc7b53ed4aa29cdde9999f43929f7dfeb9b0cdae"
+      "sha256": "f69328185c790d4d1c248a61a14302b755c63aaca880d6ae38b5eab69bb5406b"
     }
   ],
   "contract_artifacts": [
