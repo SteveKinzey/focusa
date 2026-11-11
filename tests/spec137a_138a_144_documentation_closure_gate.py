@@ -64,8 +64,8 @@ ledger137 = (ROOT / "docs/contracts/spec137-complete-feature-ledger.v1.yaml").re
 assert "combined_normative_source_v2" in ledger137 and "spec137a_requirement_rows" in ledger137
 
 alignment = (ROOT / "docs/evidence/141-focusa-latest-spec-public-doc-alignment.md").read_text()
-assert "combined full conformance open" in alignment
-assert "normative documentation only; implementation not activated" in alignment
+assert alignment.count("combined full conformance verified") >= 2
+assert "runtime implementation verified by `release-proof/audit/spec144-spec150-double-e2e-receipt.json`" in alignment
 
 ci = (ROOT / "scripts/ci/run-spec-gates.sh").read_text()
 assert "spec137a_138a_144_documentation_closure_gate.py" in ci
