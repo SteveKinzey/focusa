@@ -49,8 +49,15 @@ for rel in required:
     text = path.read_text()
     assert len(text) > 200, f"empty/shell artifact: {rel}"
     data = json.loads(text)
-    assert data.get("runtime_claim") == "none", rel
-    assert data.get("runtime_status") in {"implementation_open", "not_activated"}, rel
+    claim = data.get("runtime_claim")
+    status = data.get("runtime_status")
+    assert (claim, status) in {
+        ("none", "implementation_open"),
+        ("none", "not_activated"),
+        ("activated", "verified_complete"),
+    }, rel
+    if claim == "activated":
+        assert data.get("activation_receipt_ref") == "release-proof/audit/spec144-spec150-double-e2e-receipt.json", rel
 
 s137 = (ROOT / "docs/137-focusa-temporal-authority-deadlines-urgency-grounded-forecasting-spec.md").read_text()
 s138 = (ROOT / "docs/138-focusa-prediction-outcome-calibration-metacognitive-learning-transfer-and-epistemic-governance-spec.md").read_text()
